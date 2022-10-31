@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 #include <assert.h>
 
 struct CountsByUsage {
@@ -25,5 +26,7 @@ void testBucketingByNumberOfCycles() {
 
 int main() {
   testBucketingByNumberOfCycles();
+  clrscr();
+  
   return 0;
 }
